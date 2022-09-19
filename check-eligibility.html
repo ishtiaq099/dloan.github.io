@@ -1,9 +1,12 @@
-<!doctype html>
-<html lang="zxx">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Eligibility</title>
+     <script src="https://cdn.tailwindcss.com"></script>
+     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -29,15 +32,11 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <link rel="stylesheet" href="assets/css/responsive.css">
-    <link rel="stylesheet" href="assets/css/btn.css">
-    
-    <link rel="icon" type="image/png" href="assets/img/favicon.png">
 
-    <title>Check Eligibility</title>
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
 </head>
 <body>
-
-<div class="preloader">
+    <div class="preloader">
     <div class="lds-ripple">
         <div></div>
         <div></div>
@@ -85,17 +84,17 @@
             </div>
 
             <div class="main-nav">
-                <a href="index.html">
                 <nav class="navbar navbar-expand-md navbar-light">
                     <div class="container">
                         <a class="navbar-brand" href="index.html">
+                            <a href="index.html">
                             <img src="assets/img/logo.png" alt="Logo" width="185" height="100">
                             <!--<img src="assets/img/logo.png" alt="Logo" width="260" height="130">-->
                         </a>
                         <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                             <ul class="navbar-nav m-auto">
                                 <li class="nav-item">
-                                    <a href="index.html" class="nav-link dropdown-toggle">
+                                    <a href="index.html" class="nav-link dropdown-toggle active">
                                         Home
                                     </a>
                                 </li>
@@ -136,7 +135,8 @@
                                     <a href="contact.html" class="nav-link">Contact</a>
                                 </li>
                             </ul>
-                              <div class="others-option">
+
+                            <div class="others-option">
                                 <div class="option-item">
                                     <i class="search-btn bx bx-search"></i>
                                     <i class="close-btn bx bx-x"></i>
@@ -161,7 +161,7 @@
                                         <i class="bx bx-grid-alt"></i>
                                     </a>
                                 </div>
-                                <!--                                <a href="sign-in.html" class="default-btn user" style="margin-left: 12px; margin-right: 5px">-->
+                                <!--                                <a href="check-elegibility.html" class="default-btn user" style="margin-left: 12px; margin-right: 5px">-->
                                 <!--                                    Signup-->
                                 <!--                                </a>-->
                                 <!--                                <a href="log-in.html" class="default-btn user">-->
@@ -281,102 +281,58 @@
     </div>
 </div>
 <!--<==== Sidebar Area End ===>-->
-
-<!--<==== Title Area Start ===>-->
-<div class="page-title-area bg-14">
+<div class="page-title-area bg-4">
     <div class="container">
         <div class="page-title-content">
-            <h2>Check Eligibility </h2>
+            <h2>Check-Elegibility</h2>
             <ul>
                 <li>
                     <a href="index.html">
                         Home
                     </a>
                 </li>
-                <li>Check Eligibility</li>
+                <li>Check-Elegibility</li>
             </ul>
         </div>
     </div>
 </div>
-<!--<==== Title Area End ===>-->
+        <div class="flex items-center h-screen w-full bg-orange-100">
+      <div class="w-full bg-white rounded shadow-lg p-8 m-4 md:max-w-sm md:mx-auto">
+        <h1 class="block w-full text-center text-grey-darkest mb-6">Check-Elegibility Form</h1>
+        <form class="mb-4 flex flex-wrap justify-between" id="form">
+  
+       
+          <div class="flex flex-col w-full mb-4">
+            <label class="field-label" for="email">Name</label>
+            <input class="bg-green-100 px-2 py-1 outline-none" type="text" name="Name" id="email" placeholder="Full Namem ( As per NID)">
+          </div>
 
+          <div class="flex flex-col w-full mb-4">
+            <label class="field-label" for="email">Phone Number</label>
+            <input class="bg-green-100 px-2 py-1 outline-none" type="text" name="Number" id="Number" placeholder=" Enter your Phone Number">
+          </div>
 
-<!--<==== Contact Area Start ===>-->
-<section class="contact-area ptb-100">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 offset-lg-2">
-                <div class="contact-wrap">
-                    <div class="contact-form">
-                        <div class="section-title">
-                            <h2>Check Eligibility Form</h2>
-                        </div>
-                        <form id="contactForm">
-                            <div class="row">
-                                <div class="col-lg-6 col-sm-6">
-                                    <div class="form-group">
-                                        <input type="text" name="Name" id="Name" class="form-control" required
-                                               data-error="Please enter your name" placeholder="Your Name">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                   <div class="col-lg-6 col-sm-6">
-                                    <div class="form-group">
-                                        <input type="text" name="Number" id="Number" required
-                                               data-error="Please enter your number" class="form-control"
-                                               placeholder="Your Phone">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-sm-6">
-                                    <div class="form-group">
-                                        <input type="text" name="Business Type" id="Business Type" class="form-control" required
-                                               data-error="Please enter your email" placeholder="Business Type">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-sm-6">
-                                    <div class="form-group">
-                                        <input type="text" name="Location" id="Location" class="form-control"
-                                               required data-error="Please enter your location"
-                                               placeholder="Business Location">
-                                        <div class="help-block with-errors"></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-sm-6">
-                                    <div class="form-group">
-                                        <i class="flaticon-avatar"></i>
+          <div class="flex flex-col w-full mb-4">
+            <label class="field-label" for="email">Email Address</label>
+            <input class="bg-green-100 px-2 py-1 outline-none" type="text" name="Email" id="Email" placeholder="Enter Your Email">
+          </div>
 
-                                        <select id="Business Age" name="Business Age" class="form-control" required data-error="Please enter your location" style="display: none;">
-                                            <option value="Less than 06 months">Less than 06 months</option>
-                                            <option value="06 months to 1 year">06 months to 1 year</option>
-                                            <option value="1 year to 2 years">1 year to 2 years</option>
-                                            <option value="more than 2 years">more than 2 years</option>
-                                          </select><div class="nice-select form-control" tabindex="0"><span class="current">Business Age</span><ul class="list"><li data-value="Less than 06 months" class="option selected">Less than 06 months</li><li data-value="06 months to 1 year" class="option">06 months to 1 year</li><li data-value="1 year to 2 years" class="option">1 year to 2 years</li><li data-value="more than 2 years" class="option">more than 2 years</li></ul></div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-sm-6">
-                                    <div class="form-group">
-                                        <i class="flaticon-avatar"></i>
+          <div class="flex flex-col w-full mb-4">
+            <label class="field-label" for="email"> Do you have business registration proof? (type yes or no)
+</label>
+            <input class="bg-green-100 px-2 py-1 outline-none" type="text" name="Bproof" id="Bproof" placeholder="YES or NO">
+          </div>
 
-                                        <select id="Trade License" name="Trade License" class="form-control" style="display: none;">
-                                            <option value="1">Do You Have Trade License</option>
-                                            <option value="YES">YES</option>
-                                            <option value="NO">NO</option>
-                                        </select><div class="nice-select form-control" tabindex="0"><span class="current">Do You Have Trade License</span><ul class="list"><li data-value="YES" class="option selected">YES</li><li data-value="NO" class="option">NO</li></ul></div>
-                                    </div>
-                                </div>
-                                
-                                <div class="col-lg-12 col-md-12">
-                            <button type="submit" class="default-btn">
-                    Submit
-                </button>
-                
-        </div>
-    </form>
-</div>
-</div>
-</div></section>
+          <div class="flex flex-col w-full mb-4">
+            <label class="field-label" for="email"> Monthly Sales
+</label>
+            <input class="bg-green-100 px-2 py-1 outline-none" type="text" name="Msale" id="Msale" placeholder="Amount">
+          </div>
+
+          <button class="bg-orange-300 px-3 py-1 text-white mx-auto" type="submit">Submit</button>
+        </form>
+    </div>
+  </div>
 
   <!--<==== Footer Area Start ===>-->
 <footer class="footer-top-area pt-100 pb-70">
@@ -540,15 +496,15 @@
 </body>
 
 <script>
-        const form = document.querySelector("#contactForm")
+        const form = document.querySelector("#form")
     const scriptURL = 'https://script.google.com/macros/s/AKfycbw6HIDtfXhfee5KFDvNCBGiWyVeP29Ph_TGObWAILwvbV9nt8fLW65NQqqHsbyzCmKe/exec'
 
     form.addEventListener('submit', e => {
       e.preventDefault()
 
-      console.log(contactForm)
-      fetch(scriptURL, { method: 'POST', body: new FormData(contactForm) })
-        .then(response => { alert('Success! Our agent will contact you soon', response) })
+      console.log(form)
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => { alert('Success! Please wait - We will contact you soon', response) })
         .catch(error => alert('Error!', error.message))
     })
 </script>
