@@ -103,7 +103,7 @@ ul {
     background-color: #f9f9f9;
     border-radius: 4px;
     font-size: 15px;
-    padding: 0px 20px;
+    padding: 10px 20px;
     width: 100%
 }
 
@@ -2036,7 +2036,6 @@ textarea.form-control {
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    margin-right: -139px;
     border-radius: 50% 0 0 50%
 }
 
@@ -6796,7 +6795,7 @@ textarea.form-control {
 }
 
 .nice-select .option.selected.focus {
-    background-color: #e8e8ff;
+    background-color: #262566;
     color: #31abfc
 }
 
@@ -6859,90 +6858,4 @@ textarea.form-control {
     color: #fff;
     background-color: #31abfc;
     border-color: #31abfc
-}
-.default-btn1 {
-    font-size: 16px;
-    color: #fff;
-    padding: 10px 23px;
-    line-height: 1;
-    -webkit-transition: all .5s;
-    transition: all .5s;
-    text-transform: capitalize;
-    position: relative;
-    cursor: pointer;
-    border-radius: 55px;
-    text-align: center;
-    overflow: hidden;
-    z-index: 1;
-    margin-right: 12px;
-    top: -1px;
-    background-color: #FF7000
-}
-
-.default-btn1::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 100%;
-    width: 100%;
-    height: 50%;
-    background-color: #262566;
-    z-index: -1;
-    -webkit-transition: all .5s;
-    transition: all .5s
-}
-
-.default-btn1::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    right: 100%;
-    width: 100%;
-    height: 50%;
-    background-color: #262566;
-    z-index: -1;
-    -webkit-transition: all .5s;
-    transition: all .5s
-}
-
-.default-btn1.active {
-    margin-left: 30px;
-    color: #fff;
-    background-color: #262566
-}
-
-.default-btn1.btn1-five {
-    background-color: #12b48b
-}
-
-.default-btn1.btn1-five::before {
-    background-color: #204066
-}
-
-.default-btn1.btn1-five::after {
-    background-color: #204066
-}
-
-.default-btn1.btn1-six {
-    background-color: #12b48b
-}
-
-.default-btn1.btn1-six::before {
-    background-color: #204066
-}
-
-.default-btn1.btn1-six::after {
-    background-color: #204066
-}
-
-.default-btn1:hover {
-    color: #fff
-}
-
-.default-btn1:hover::before {
-    left: 0
-}
-
-.default-btn1:hover::after {
-    right: 0
 }
